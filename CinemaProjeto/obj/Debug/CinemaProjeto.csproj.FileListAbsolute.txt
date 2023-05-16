@@ -1,0 +1,12 @@
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe.config
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.pdb
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.xml
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.AssemblyReference.cache
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Properties.Resources.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.GenerateResource.cache
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CoreCompileInputs.cache
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb

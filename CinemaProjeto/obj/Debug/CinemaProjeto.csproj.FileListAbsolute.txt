@@ -10,3 +10,4 @@ C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Deb
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Form1.resources

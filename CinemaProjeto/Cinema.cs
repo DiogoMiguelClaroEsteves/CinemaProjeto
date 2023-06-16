@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CinemaProjeto
 {
-    internal class Cinema
+    public class Cinema
     {
         public int ID { get; set; }
         public string Nome { get; set; }

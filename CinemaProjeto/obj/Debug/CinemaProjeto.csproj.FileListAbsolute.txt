@@ -1,13 +1,33 @@
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe.config
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.pdb
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.xml
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.AssemblyReference.cache
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Properties.Resources.resources
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.GenerateResource.cache
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CoreCompileInputs.cache
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Form1.resources
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.AssemblyReference.cache
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.SuggestedBindingRedirects.cache
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Form1.resources
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\Projeto.CriarCinemaUI.resources
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Properties.Resources.resources
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.GenerateResource.cache
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CoreCompileInputs.cache
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe.config
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.pdb
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.dll
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.xml
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
+C:\Users\marquesj7\Downloads\wetransfer_cinemaprojeto_2023-06-16_1834\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe.config
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.pdb
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.dll
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.xml
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.AssemblyReference.cache
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Form1.resources
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\Projeto.CriarCinemaUI.resources
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Properties.Resources.resources
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.GenerateResource.cache
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
+C:\Users\Gordo oh Night\Desktop\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb

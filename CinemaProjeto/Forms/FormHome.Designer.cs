@@ -147,6 +147,7 @@ namespace CinemaProjeto.Forms
             this.Controls.Add(this.groupBox1);
             this.Name = "FormHome";
             this.Text = "FormHome";
+            this.Load += new System.EventHandler(this.FormHome_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

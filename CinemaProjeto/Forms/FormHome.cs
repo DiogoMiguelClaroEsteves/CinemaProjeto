@@ -21,5 +21,10 @@ namespace CinemaProjeto.Forms
         {
 
         }
+
+        private void FormHome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

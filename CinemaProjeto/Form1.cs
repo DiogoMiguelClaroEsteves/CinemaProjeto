@@ -51,7 +51,9 @@ namespace CinemaProjeto
         private void OpenChildForm(Form childForm, object btnSender)
         {
             if (activeForm != null)
-                activeForm.Close();
+            {
+               activeForm.Close();
+            }
             ActivateButton(btnSender);
             activeForm = childForm;
             childForm.TopLevel = false;
@@ -70,7 +72,7 @@ namespace CinemaProjeto
 
         private void btncinema_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormCinema(), sender);
         }
 
         private void buttonCriarCinema_Click(object sender, EventArgs e)

@@ -39,6 +39,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
             this.panelDesktopPane = new System.Windows.Forms.Panel();
+            this.buttonCriarCinema = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -47,6 +48,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(35)))), ((int)(((byte)(64)))));
+            this.panelMenu.Controls.Add(this.buttonCriarCinema);
             this.panelMenu.Controls.Add(this.btnbilhetes);
             this.panelMenu.Controls.Add(this.btnsalas);
             this.panelMenu.Controls.Add(this.btnfilmes);
@@ -203,6 +205,15 @@
             this.panelDesktopPane.Size = new System.Drawing.Size(873, 572);
             this.panelDesktopPane.TabIndex = 3;
             // 
+            // buttonCriarCinema
+            // 
+            this.buttonCriarCinema.Location = new System.Drawing.Point(47, 397);
+            this.buttonCriarCinema.Name = "buttonCriarCinema";
+            this.buttonCriarCinema.Size = new System.Drawing.Size(75, 23);
+            this.buttonCriarCinema.TabIndex = 6;
+            this.buttonCriarCinema.Text = "Criar";
+            this.buttonCriarCinema.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -239,6 +250,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Panel panelDesktopPane;
+        private System.Windows.Forms.Button buttonCriarCinema;
     }
 }
 

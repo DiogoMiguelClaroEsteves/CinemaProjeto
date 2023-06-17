@@ -76,17 +76,35 @@
       <DependentUpon>CriarCinemaUI.cs</DependentUpon>
     </Compile>
     <Compile Include="BD\Pessoa.cs" />
+    <Compile Include="Forms\FormBilhetes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBilhetes.Designer.cs">
+      <DependentUpon>FormBilhetes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormCinema.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormCinema.Designer.cs">
       <DependentUpon>FormCinema.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormFilme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFilme.Designer.cs">
+      <DependentUpon>FormFilme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormHome.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSala.Designer.cs">
+      <DependentUpon>FormSala.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -103,11 +121,20 @@
     <EmbeddedResource Include="CriarCinemaUI.resx">
       <DependentUpon>CriarCinemaUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBilhetes.resx">
+      <DependentUpon>FormBilhetes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormCinema.resx">
       <DependentUpon>FormCinema.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFilme.resx">
+      <DependentUpon>FormFilme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSala.resx">
+      <DependentUpon>FormSala.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

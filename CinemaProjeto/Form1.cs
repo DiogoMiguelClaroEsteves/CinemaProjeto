@@ -96,17 +96,17 @@ namespace CinemaProjeto
 
         private void btnfilmes_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormFilme(), sender);
         }
 
         private void btnsalas_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormSala(), sender);
         }
 
         private void btnbilhetes_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormBilhetes(), sender);
         }
 
         private void label1_Click(object sender, EventArgs e)

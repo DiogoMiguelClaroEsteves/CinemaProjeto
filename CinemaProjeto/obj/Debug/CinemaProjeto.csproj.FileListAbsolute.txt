@@ -49,3 +49,6 @@ C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Deb
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormHome.resources
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormCinema.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormBilhetes.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormFilme.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSala.resources

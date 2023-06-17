@@ -10,14 +10,22 @@ namespace CinemaProjeto
     {
         public int ID { get; set; }
         public string Nome { get; set; }
-        public int Colunas { get; set; }
-        public int Filas { get; set; }
+        public decimal Colunas { get; set; }
+        public decimal Filas { get; set; }
 
         public Cinema Cinema { get; set; }
             
-        public Sala()
+        public Sala(string nome, decimal colunas, decimal filas)
         {
+            Nome = nome;
+            Colunas = colunas;
+            Filas = filas;
+        }
 
+        public override string ToString()
+        {
+            decimal Lugares = Colunas * Filas;
+            return $"{Nome} | {Lugares}";
         }
     }
 }

@@ -16,5 +16,16 @@ namespace CinemaProjeto.Forms
         {
             InitializeComponent();
         }
+
+        private void btnCriarSala_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSala.Text) || string.IsNullOrEmpty(numericColunas.Text) || string.IsNullOrEmpty(numericFilas.Text))
+            {
+                return;
+            }
+
+            Sala sala = new Sala(txtSala.Text, numericColunas.Value, numericFilas.Value);
+            lstSalas.Items.Add(sala);
+        }
     }
 }

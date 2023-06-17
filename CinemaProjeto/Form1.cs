@@ -46,13 +46,13 @@ namespace CinemaProjeto
                     previousBtn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 }
             }
-        }   
+        }
 
         private void OpenChildForm(Form childForm, object btnSender)
         {
             if (activeForm != null)
             {
-               activeForm.Close();
+                activeForm.Close();
             }
             ActivateButton(btnSender);
             activeForm = childForm;
@@ -65,6 +65,7 @@ namespace CinemaProjeto
             childForm.Show();
             labelTitle.Text = childForm.Text;
         }
+
         private void HomeBtn_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormHome(), sender);
@@ -87,7 +88,8 @@ namespace CinemaProjeto
             using (var db = new CinemaContext())
             {
                 cinema = db.Cinemas.FirstOrDefault();
-                if(cinema != null)
+
+                if (cinema != null)
                 {
                     buttonCriarCinema.Text = "Editar Cinema";
                 }

@@ -35,6 +35,7 @@ namespace Projeto
                 textBoxMorada.Text = cinema.Morada;
                 textBoxNome.Text = cinema.Nome;
                 labelCriar.Text = "Editar Cinema";
+                buttonCriar.Text = "Editar";
             }
         }
 

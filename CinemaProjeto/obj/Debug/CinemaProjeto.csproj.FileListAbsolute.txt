@@ -52,3 +52,25 @@ C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Deb
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormBilhetes.resources
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormFilme.resources
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSala.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe.config
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.pdb
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.dll
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.xml
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.AssemblyReference.cache
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Form1.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\Projeto.CriarCinemaUI.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormBilhetes.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormCinema.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormFilme.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormHome.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSala.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Properties.Resources.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.GenerateResource.cache
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb

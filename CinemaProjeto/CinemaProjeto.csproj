@@ -56,26 +56,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bilhete.cs" />
-    <Compile Include="Categoria.cs" />
-    <Compile Include="Cinema.cs" />
-    <Compile Include="CinemaContext.cs" />
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Filme.cs" />
+    <Compile Include="BD\Bilhete.cs" />
+    <Compile Include="BD\Categoria.cs" />
+    <Compile Include="BD\Cinema.cs" />
+    <Compile Include="BD\CinemaContext.cs" />
+    <Compile Include="BD\Cliente.cs" />
+    <Compile Include="BD\Filme.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funcionario.cs" />
+    <Compile Include="BD\Funcionario.cs" />
     <Compile Include="CriarCinemaUI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CriarCinemaUI.designer.cs">
       <DependentUpon>CriarCinemaUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pessoa.cs" />
+    <Compile Include="BD\Pessoa.cs" />
+    <Compile Include="Forms\FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -83,13 +89,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Sala.cs" />
-    <Compile Include="Sessao.cs" />
+    <Compile Include="BD\Sala.cs" />
+    <Compile Include="BD\Sessao.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CriarCinemaUI.resx">
       <DependentUpon>CriarCinemaUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,9 +119,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\home3.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

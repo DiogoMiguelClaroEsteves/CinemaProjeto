@@ -76,6 +76,12 @@
       <DependentUpon>CriarCinemaUI.cs</DependentUpon>
     </Compile>
     <Compile Include="BD\Pessoa.cs" />
+    <Compile Include="Forms\FormCinema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCinema.Designer.cs">
+      <DependentUpon>FormCinema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CriarCinemaUI.resx">
       <DependentUpon>CriarCinemaUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCinema.resx">
+      <DependentUpon>FormCinema.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>

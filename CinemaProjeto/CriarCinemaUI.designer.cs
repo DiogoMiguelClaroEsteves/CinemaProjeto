@@ -55,7 +55,7 @@ namespace Projeto
             this.labelMorada.Location = new System.Drawing.Point(129, 151);
             this.labelMorada.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMorada.Name = "labelMorada";
-            this.labelMorada.Size = new System.Drawing.Size(54, 16);
+            this.labelMorada.Size = new System.Drawing.Size(56, 17);
             this.labelMorada.TabIndex = 1;
             this.labelMorada.Text = "Morada";
             // 
@@ -65,7 +65,7 @@ namespace Projeto
             this.labelNome.Location = new System.Drawing.Point(129, 85);
             this.labelNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNome.Name = "labelNome";
-            this.labelNome.Size = new System.Drawing.Size(44, 16);
+            this.labelNome.Size = new System.Drawing.Size(45, 17);
             this.labelNome.TabIndex = 2;
             this.labelNome.Text = "Nome";
             // 
@@ -110,7 +110,7 @@ namespace Projeto
             this.labelEmail.Location = new System.Drawing.Point(130, 208);
             this.labelEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(41, 16);
+            this.labelEmail.Size = new System.Drawing.Size(42, 17);
             this.labelEmail.TabIndex = 6;
             this.labelEmail.Text = "Email";
             // 

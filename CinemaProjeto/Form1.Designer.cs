@@ -36,7 +36,6 @@
             this.HomeBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.CineGest = new System.Windows.Forms.Label();
-            this.buttonCriarCinema = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
             this.panelDesktopPane = new System.Windows.Forms.Panel();
@@ -48,7 +47,6 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(35)))), ((int)(((byte)(64)))));
-            this.panelMenu.Controls.Add(this.buttonCriarCinema);
             this.panelMenu.Controls.Add(this.btnbilhetes);
             this.panelMenu.Controls.Add(this.btnsalas);
             this.panelMenu.Controls.Add(this.btnfilmes);
@@ -173,16 +171,6 @@
             this.CineGest.TabIndex = 0;
             this.CineGest.Text = "CineGest";
             // 
-            // buttonCriarCinema
-            // 
-            this.buttonCriarCinema.Location = new System.Drawing.Point(23, 384);
-            this.buttonCriarCinema.Name = "buttonCriarCinema";
-            this.buttonCriarCinema.Size = new System.Drawing.Size(75, 23);
-            this.buttonCriarCinema.TabIndex = 1;
-            this.buttonCriarCinema.Text = "Criar Cinema";
-            this.buttonCriarCinema.UseVisualStyleBackColor = true;
-            this.buttonCriarCinema.Click += new System.EventHandler(this.buttonCriarCinema_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(60)))));
@@ -248,7 +236,6 @@
         private System.Windows.Forms.Button btnsalas;
         private System.Windows.Forms.Button btnfilmes;
         private System.Windows.Forms.Button btncinema;
-        private System.Windows.Forms.Button buttonCriarCinema;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Panel panelDesktopPane;

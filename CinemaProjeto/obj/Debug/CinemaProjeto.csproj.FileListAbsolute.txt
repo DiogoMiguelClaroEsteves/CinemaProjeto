@@ -74,3 +74,5 @@ C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaP
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.InitialCreate.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.BaseDados.resources

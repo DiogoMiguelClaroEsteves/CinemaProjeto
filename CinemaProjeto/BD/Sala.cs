@@ -68,8 +68,6 @@ namespace CinemaProjeto
             Salas.Remove(sala);
         }
 
-
-
         public override string ToString()
         {
             int totalLugares = (int)(Colunas * Filas);

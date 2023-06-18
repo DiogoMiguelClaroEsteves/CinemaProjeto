@@ -17,16 +17,31 @@ namespace CinemaProjeto
 
         public Cinema Cinema { get; set; }
 
-        public Sala(string nome, decimal colunas, decimal filas)
+        public Sala()
         {
-            Nome = nome;
-            Colunas = colunas;
-            Filas = filas;
             Salas = new List<Sala>();
         }
 
         public void EditarSala(string novoNome, decimal novasColunas, decimal novasFilas)
         {
+            using (var db = new CinemaContext())
+            {
+                // Obtém a sala do contexto do banco de dados
+                Sala salaDoBanco = db.Salas.FirstOrDefault(s => s.ID == ID);
+
+                if (salaDoBanco != null)
+                {
+                    // Atualiza os dados da sala com os novos valores
+                    salaDoBanco.Nome = novoNome;
+                    salaDoBanco.Colunas = novasColunas;
+                    salaDoBanco.Filas = novasFilas;
+
+                    // Salva as alterações no banco de dados
+                    db.SaveChanges();
+                }
+            }
+
+            // Atualiza os dados da sala localmente
             Nome = novoNome;
             Colunas = novasColunas;
             Filas = novasFilas;
@@ -34,16 +49,31 @@ namespace CinemaProjeto
 
         public void RemoverSala(Sala sala)
         {
-            if (Salas.Contains(sala))
+            using (var db = new CinemaContext())
             {
-                Salas.Remove(sala);
+                // Obtém a sala do contexto do banco de dados
+                Sala salaDoBanco = db.Salas.FirstOrDefault(s => s.ID == sala.ID);
+
+                if (salaDoBanco != null)
+                {
+                    // Remove a sala do contexto do banco de dados
+                    db.Salas.Remove(salaDoBanco);
+
+                    // Salva as alterações no banco de dados
+                    db.SaveChanges();
+                }
             }
+
+            // Remove a sala da lista local
+            Salas.Remove(sala);
         }
+
 
 
         public override string ToString()
         {
-            return $"Sala: {Nome}  \t\t\t Número de Lugares: {Colunas * Filas}";
+            int totalLugares = (int)(Colunas * Filas);
+            return $"Sala: {Nome}  \t\t\t Número de Lugares: {totalLugares}";
         }
     }
 }

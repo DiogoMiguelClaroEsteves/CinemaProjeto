@@ -17,6 +17,15 @@ namespace CinemaProjeto.Forms
             InitializeComponent();
         }
 
+        private void FormSala_Load(object sender, EventArgs e)
+        {
+            using (var db = new CinemaContext())
+            {
+                var salas = db.Salas.ToList();
+                lstSalas.Items.AddRange(salas.ToArray());
+            }
+        }
+
         private void btnCriarSala_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtSala.Text))
@@ -26,9 +35,21 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            Sala sala = new Sala(txtSala.Text, numericColunas.Value, numericFilas.Value);
-            lstSalas.Items.Add(sala);
+            var novaSala = new Sala()
+            {
+                Nome = txtSala.Text,
+                Colunas = numericColunas.Value,
+                Filas = numericFilas.Value,
+            };
 
+            using (var db = new CinemaContext())
+            {
+                db.Salas.Add(novaSala);
+                db.SaveChanges();
+            }
+
+            lstSalas.Items.Add(novaSala);
+            
             LimparCampos();
         }
 
@@ -85,7 +106,5 @@ namespace CinemaProjeto.Forms
             numericColunas.Value = 1;
             numericFilas.Value = 1;
         }
-
-
     }
 }

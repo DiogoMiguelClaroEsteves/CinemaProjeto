@@ -172,6 +172,7 @@ namespace CinemaProjeto.Forms
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormSala";
             this.Text = "FormSala";
+            this.Load += new System.EventHandler(this.FormSala_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericColunas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericFilas)).EndInit();
             this.ResumeLayout(false);

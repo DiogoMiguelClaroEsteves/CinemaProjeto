@@ -13,19 +13,37 @@ namespace CinemaProjeto
         public decimal Colunas { get; set; }
         public decimal Filas { get; set; }
 
+        internal List<Sala> Salas;
+
         public Cinema Cinema { get; set; }
-            
+
         public Sala(string nome, decimal colunas, decimal filas)
         {
             Nome = nome;
             Colunas = colunas;
             Filas = filas;
+            Salas = new List<Sala>();
         }
+
+        public void EditarSala(string novoNome, decimal novasColunas, decimal novasFilas)
+        {
+            Nome = novoNome;
+            Colunas = novasColunas;
+            Filas = novasFilas;
+        }
+
+        public void RemoverSala(Sala sala)
+        {
+            if (Salas.Contains(sala))
+            {
+                Salas.Remove(sala);
+            }
+        }
+
 
         public override string ToString()
         {
-            decimal Lugares = Colunas * Filas;
-            return $"{Nome} | {Lugares}";
+            return $"Sala: {Nome}  \t\t\t Número de Lugares: {Colunas * Filas}";
         }
     }
 }

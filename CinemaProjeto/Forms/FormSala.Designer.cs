@@ -50,6 +50,7 @@ namespace CinemaProjeto.Forms
             this.lstSalas.Name = "lstSalas";
             this.lstSalas.Size = new System.Drawing.Size(576, 147);
             this.lstSalas.TabIndex = 0;
+            this.lstSalas.SelectedIndexChanged += new System.EventHandler(this.lstSalas_SelectedIndexChanged);
             // 
             // txtSala
             // 
@@ -106,6 +107,7 @@ namespace CinemaProjeto.Forms
             this.btnEditarSala.TabIndex = 8;
             this.btnEditarSala.Text = "Editar Sala";
             this.btnEditarSala.UseVisualStyleBackColor = true;
+            this.btnEditarSala.Click += new System.EventHandler(this.btnEditarSala_Click);
             // 
             // btnEliminarSala
             // 
@@ -115,20 +117,41 @@ namespace CinemaProjeto.Forms
             this.btnEliminarSala.TabIndex = 9;
             this.btnEliminarSala.Text = "Eliminar Sala";
             this.btnEliminarSala.UseVisualStyleBackColor = true;
+            this.btnEliminarSala.Click += new System.EventHandler(this.btnEliminarSala_Click);
             // 
             // numericColunas
             // 
             this.numericColunas.Location = new System.Drawing.Point(13, 98);
+            this.numericColunas.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericColunas.Name = "numericColunas";
             this.numericColunas.Size = new System.Drawing.Size(232, 20);
             this.numericColunas.TabIndex = 10;
+            this.numericColunas.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // numericFilas
             // 
             this.numericFilas.Location = new System.Drawing.Point(12, 156);
+            this.numericFilas.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericFilas.Name = "numericFilas";
             this.numericFilas.Size = new System.Drawing.Size(232, 20);
             this.numericFilas.TabIndex = 11;
+            this.numericFilas.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // FormSala
             // 
@@ -146,7 +169,7 @@ namespace CinemaProjeto.Forms
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSala);
             this.Controls.Add(this.lstSalas);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormSala";
             this.Text = "FormSala";
             ((System.ComponentModel.ISupportInitialize)(this.numericColunas)).EndInit();

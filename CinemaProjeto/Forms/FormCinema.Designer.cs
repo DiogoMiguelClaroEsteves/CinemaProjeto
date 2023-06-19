@@ -131,7 +131,7 @@ namespace CinemaProjeto.Forms
             this.listBox1.Size = new System.Drawing.Size(194, 292);
             this.listBox1.TabIndex = 0;
             // 
-            // FormCinema
+            // Cinema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -145,8 +145,9 @@ namespace CinemaProjeto.Forms
             this.Controls.Add(this.textBoxNome);
             this.Controls.Add(this.labelNome);
             this.Controls.Add(this.labelMorada);
-            this.Name = "FormCinema";
-            this.Text = "FormCinema";
+            this.Name = "Cinema";
+            this.Text = "Cinema";
+            this.Load += new System.EventHandler(this.Cinema_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

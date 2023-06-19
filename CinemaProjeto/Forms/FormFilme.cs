@@ -35,7 +35,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            var novoFilme = new Filme()
+            var novoFilme = new CinemaProjeto.Filme()
             {
                 Nome = txtFilme.Text,
                 Activo = checkBoxAtivo.Checked,
@@ -62,7 +62,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            Filme filme = (Filme)lstFilmes.SelectedItem;
+            CinemaProjeto.Filme filme = (CinemaProjeto.Filme)lstFilmes.SelectedItem;
             filme.EditarFilme(txtFilme.Text, checkBoxAtivo.Checked, numericUpDown1.Text, comboBox1.Text);
 
             lstFilmes.Items[lstFilmes.SelectedIndex] = filme;
@@ -80,7 +80,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            Filme filme = (Filme)lstFilmes.SelectedItem;
+            CinemaProjeto.Filme filme = (CinemaProjeto.Filme)lstFilmes.SelectedItem;
             filme.RemoverFilme(filme);
             lstFilmes.Items.Remove(filme);
 
@@ -94,7 +94,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            Filme filme = (Filme)lstFilmes.SelectedItem;
+            CinemaProjeto.Filme filme = (CinemaProjeto.Filme)lstFilmes.SelectedItem;
 
             txtFilme.Text = filme.Nome;
             checkBoxAtivo.Checked = filme.Activo;

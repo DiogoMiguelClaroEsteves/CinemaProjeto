@@ -46,26 +46,30 @@ namespace CinemaProjeto.Forms
             // lstSalas
             // 
             this.lstSalas.FormattingEnabled = true;
-            this.lstSalas.Location = new System.Drawing.Point(12, 207);
+            this.lstSalas.ItemHeight = 16;
+            this.lstSalas.Location = new System.Drawing.Point(16, 255);
+            this.lstSalas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lstSalas.Name = "lstSalas";
-            this.lstSalas.Size = new System.Drawing.Size(576, 147);
+            this.lstSalas.Size = new System.Drawing.Size(767, 180);
             this.lstSalas.TabIndex = 0;
             this.lstSalas.SelectedIndexChanged += new System.EventHandler(this.lstSalas_SelectedIndexChanged);
             // 
             // txtSala
             // 
-            this.txtSala.Location = new System.Drawing.Point(12, 41);
+            this.txtSala.Location = new System.Drawing.Point(16, 50);
+            this.txtSala.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSala.Name = "txtSala";
-            this.txtSala.Size = new System.Drawing.Size(233, 20);
+            this.txtSala.Size = new System.Drawing.Size(309, 22);
             this.txtSala.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(13, 22);
+            this.label1.Location = new System.Drawing.Point(17, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(97, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nome da Sala";
             // 
@@ -73,9 +77,10 @@ namespace CinemaProjeto.Forms
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(13, 77);
+            this.label2.Location = new System.Drawing.Point(17, 95);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.Size = new System.Drawing.Size(59, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "Colunas";
             // 
@@ -83,17 +88,19 @@ namespace CinemaProjeto.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(13, 137);
+            this.label3.Location = new System.Drawing.Point(17, 169);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.Size = new System.Drawing.Size(37, 17);
             this.label3.TabIndex = 6;
             this.label3.Text = "Filas";
             // 
             // btnCriarSala
             // 
-            this.btnCriarSala.Location = new System.Drawing.Point(345, 38);
+            this.btnCriarSala.Location = new System.Drawing.Point(460, 47);
+            this.btnCriarSala.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCriarSala.Name = "btnCriarSala";
-            this.btnCriarSala.Size = new System.Drawing.Size(75, 23);
+            this.btnCriarSala.Size = new System.Drawing.Size(100, 28);
             this.btnCriarSala.TabIndex = 7;
             this.btnCriarSala.Text = "Criar Sala";
             this.btnCriarSala.UseVisualStyleBackColor = true;
@@ -101,9 +108,10 @@ namespace CinemaProjeto.Forms
             // 
             // btnEditarSala
             // 
-            this.btnEditarSala.Location = new System.Drawing.Point(345, 96);
+            this.btnEditarSala.Location = new System.Drawing.Point(460, 118);
+            this.btnEditarSala.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEditarSala.Name = "btnEditarSala";
-            this.btnEditarSala.Size = new System.Drawing.Size(75, 23);
+            this.btnEditarSala.Size = new System.Drawing.Size(100, 28);
             this.btnEditarSala.TabIndex = 8;
             this.btnEditarSala.Text = "Editar Sala";
             this.btnEditarSala.UseVisualStyleBackColor = true;
@@ -111,9 +119,10 @@ namespace CinemaProjeto.Forms
             // 
             // btnEliminarSala
             // 
-            this.btnEliminarSala.Location = new System.Drawing.Point(345, 153);
+            this.btnEliminarSala.Location = new System.Drawing.Point(460, 188);
+            this.btnEliminarSala.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEliminarSala.Name = "btnEliminarSala";
-            this.btnEliminarSala.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminarSala.Size = new System.Drawing.Size(100, 28);
             this.btnEliminarSala.TabIndex = 9;
             this.btnEliminarSala.Text = "Eliminar Sala";
             this.btnEliminarSala.UseVisualStyleBackColor = true;
@@ -121,14 +130,15 @@ namespace CinemaProjeto.Forms
             // 
             // numericColunas
             // 
-            this.numericColunas.Location = new System.Drawing.Point(13, 98);
+            this.numericColunas.Location = new System.Drawing.Point(17, 121);
+            this.numericColunas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericColunas.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numericColunas.Name = "numericColunas";
-            this.numericColunas.Size = new System.Drawing.Size(232, 20);
+            this.numericColunas.Size = new System.Drawing.Size(309, 22);
             this.numericColunas.TabIndex = 10;
             this.numericColunas.Value = new decimal(new int[] {
             1,
@@ -138,14 +148,15 @@ namespace CinemaProjeto.Forms
             // 
             // numericFilas
             // 
-            this.numericFilas.Location = new System.Drawing.Point(12, 156);
+            this.numericFilas.Location = new System.Drawing.Point(16, 192);
+            this.numericFilas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericFilas.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numericFilas.Name = "numericFilas";
-            this.numericFilas.Size = new System.Drawing.Size(232, 20);
+            this.numericFilas.Size = new System.Drawing.Size(309, 22);
             this.numericFilas.TabIndex = 11;
             this.numericFilas.Value = new decimal(new int[] {
             1,
@@ -153,12 +164,12 @@ namespace CinemaProjeto.Forms
             0,
             0});
             // 
-            // FormSala
+            // Sala
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.numericFilas);
             this.Controls.Add(this.numericColunas);
             this.Controls.Add(this.btnEliminarSala);
@@ -169,9 +180,9 @@ namespace CinemaProjeto.Forms
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSala);
             this.Controls.Add(this.lstSalas);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "FormSala";
-            this.Text = "FormSala";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "Sala";
+            this.Text = "Sala";
             this.Load += new System.EventHandler(this.FormSala_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericColunas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericFilas)).EndInit();

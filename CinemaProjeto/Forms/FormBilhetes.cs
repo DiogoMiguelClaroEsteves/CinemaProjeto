@@ -16,5 +16,10 @@ namespace CinemaProjeto.Forms
         {
             InitializeComponent();
         }
+
+        private void Bilhetes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

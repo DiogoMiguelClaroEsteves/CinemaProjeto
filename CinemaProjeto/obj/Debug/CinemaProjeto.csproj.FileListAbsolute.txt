@@ -47,11 +47,6 @@ C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Deb
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormHome.resources
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormCinema.resources
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormBilhetes.resources
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormFilme.resources
-C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSala.resources
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe.config
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.pdb
@@ -100,3 +95,11 @@ C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\C
 C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
 C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
 C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.NomeDaMigration.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.InitialCreate.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.BaseDados.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.NomeDaMigration.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormBilhetes.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormCinema.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormFilme.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormHome.resources
+C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSala.resources

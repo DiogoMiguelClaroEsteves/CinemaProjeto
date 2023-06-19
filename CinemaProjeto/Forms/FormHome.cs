@@ -17,6 +17,8 @@ namespace CinemaProjeto.Forms
             InitializeComponent();
         }
 
+  
+
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -24,7 +26,21 @@ namespace CinemaProjeto.Forms
 
         private void FormHome_Load(object sender, EventArgs e)
         {
+            using (var db = new CinemaContext())
+            {
+                var filmes = db.Filmes.ToList();
+                listBoxFilmes.Items.AddRange(filmes.ToArray());
 
+                var salas = db.Salas.ToList();
+                listBoxSalas.Items.AddRange(salas.ToArray());
+            }
+
+
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

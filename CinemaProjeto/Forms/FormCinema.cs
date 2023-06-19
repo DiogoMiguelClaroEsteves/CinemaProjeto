@@ -16,5 +16,10 @@ namespace CinemaProjeto.Forms
         {
             InitializeComponent();
         }
+
+        private void Cinema_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -35,7 +35,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            var novaSala = new Sala()
+            var novaSala = new CinemaProjeto.Sala()
             {
                 Nome = txtSala.Text,
                 Colunas = numericColunas.Value,
@@ -61,7 +61,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            Sala sala = (Sala)lstSalas.SelectedItem;
+            CinemaProjeto.Sala sala = (CinemaProjeto.Sala)lstSalas.SelectedItem;
             sala.EditarSala(txtSala.Text, numericColunas.Value, numericFilas.Value);
 
             lstSalas.Items[lstSalas.SelectedIndex] = sala;
@@ -79,7 +79,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            Sala sala = (Sala)lstSalas.SelectedItem;
+            CinemaProjeto.Sala sala = (CinemaProjeto.Sala)lstSalas.SelectedItem;
             sala.RemoverSala(sala);
             lstSalas.Items.Remove(sala);
 
@@ -93,7 +93,7 @@ namespace CinemaProjeto.Forms
                 return;
             }
 
-            Sala sala = (Sala)lstSalas.SelectedItem;
+            CinemaProjeto.Sala sala = (CinemaProjeto.Sala)lstSalas.SelectedItem;
 
             txtSala.Text = sala.Nome;
             numericColunas.Value = sala.Colunas;

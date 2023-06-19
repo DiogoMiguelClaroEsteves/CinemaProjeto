@@ -59,11 +59,11 @@ namespace CinemaProjeto.Forms
             this.dateTimePicker.CustomFormat = "dd/MM/yyyy HH:mm ";
             this.dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker.Location = new System.Drawing.Point(29, 36);
-            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(159, 20);
             this.dateTimePicker.TabIndex = 1;
-            this.dateTimePicker.Value = new System.DateTime(2023, 6, 19, 19, 43, 43, 0);
+            this.dateTimePicker.Value = new System.DateTime(2023, 6, 19, 21, 24, 35, 0);
             // 
             // label2
             // 
@@ -86,22 +86,22 @@ namespace CinemaProjeto.Forms
             // btnCriarSessao
             // 
             this.btnCriarSessao.Location = new System.Drawing.Point(29, 205);
-            this.btnCriarSessao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCriarSessao.Margin = new System.Windows.Forms.Padding(2);
             this.btnCriarSessao.Name = "btnCriarSessao";
-            this.btnCriarSessao.Size = new System.Drawing.Size(79, 20);
+            this.btnCriarSessao.Size = new System.Drawing.Size(91, 20);
             this.btnCriarSessao.TabIndex = 22;
             this.btnCriarSessao.Text = "Criar Sessao";
             this.btnCriarSessao.UseVisualStyleBackColor = true;
-            this.btnCriarSessao.Click += new System.EventHandler(this.button1_Click);
+            this.btnCriarSessao.Click += new System.EventHandler(this.btnCriarSessao_Click);
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.listBoxSessoes);
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox4.Location = new System.Drawing.Point(254, 19);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4.Size = new System.Drawing.Size(342, 265);
             this.groupBox4.TabIndex = 23;
             this.groupBox4.TabStop = false;
@@ -114,7 +114,7 @@ namespace CinemaProjeto.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxSessoes.FormattingEnabled = true;
             this.listBoxSessoes.Location = new System.Drawing.Point(4, 15);
-            this.listBoxSessoes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBoxSessoes.Margin = new System.Windows.Forms.Padding(2);
             this.listBoxSessoes.Name = "listBoxSessoes";
             this.listBoxSessoes.Size = new System.Drawing.Size(333, 238);
             this.listBoxSessoes.TabIndex = 0;
@@ -129,7 +129,7 @@ namespace CinemaProjeto.Forms
             // 
             this.btnEliminarSessao.Location = new System.Drawing.Point(29, 290);
             this.btnEliminarSessao.Name = "btnEliminarSessao";
-            this.btnEliminarSessao.Size = new System.Drawing.Size(79, 23);
+            this.btnEliminarSessao.Size = new System.Drawing.Size(91, 23);
             this.btnEliminarSessao.TabIndex = 25;
             this.btnEliminarSessao.Text = "Eliminar Sessao";
             this.btnEliminarSessao.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@ namespace CinemaProjeto.Forms
             // 
             this.btnEditarSessao.Location = new System.Drawing.Point(29, 248);
             this.btnEditarSessao.Name = "btnEditarSessao";
-            this.btnEditarSessao.Size = new System.Drawing.Size(79, 23);
+            this.btnEditarSessao.Size = new System.Drawing.Size(91, 23);
             this.btnEditarSessao.TabIndex = 24;
             this.btnEditarSessao.Text = "Editar Sessao";
             this.btnEditarSessao.UseVisualStyleBackColor = true;
@@ -159,7 +159,7 @@ namespace CinemaProjeto.Forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormSessoes";
             this.Text = "Sessoes";
             this.Load += new System.EventHandler(this.FormSessoes_Load);

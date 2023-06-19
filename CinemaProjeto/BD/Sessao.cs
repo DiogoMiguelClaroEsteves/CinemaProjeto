@@ -65,7 +65,7 @@ namespace CinemaProjeto
         }
         public override string ToString()
         {
-            return $"Data e hora: {DataHora}  \t Preco: {preco}";
+            return $"Data e hora: {DataHora}  \t Preco: {preco} €";
         }
     }
 }

@@ -38,6 +38,10 @@ namespace CinemaProjeto.Forms
             this.txtFilme = new System.Windows.Forms.TextBox();
             this.lstFilmes = new System.Windows.Forms.ListBox();
             this.checkBoxAtivo = new System.Windows.Forms.CheckBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.labelCategoria = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnEliminarFilme
@@ -106,6 +110,7 @@ namespace CinemaProjeto.Forms
             this.txtFilme.Name = "txtFilme";
             this.txtFilme.Size = new System.Drawing.Size(233, 20);
             this.txtFilme.TabIndex = 13;
+            this.txtFilme.TextChanged += new System.EventHandler(this.txtFilme_TextChanged);
             // 
             // lstFilmes
             // 
@@ -127,12 +132,55 @@ namespace CinemaProjeto.Forms
             this.checkBoxAtivo.Text = "Em Exibição";
             this.checkBoxAtivo.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(12, 91);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(233, 20);
+            this.numericUpDown1.TabIndex = 23;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // labelCategoria
+            // 
+            this.labelCategoria.AutoSize = true;
+            this.labelCategoria.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelCategoria.Location = new System.Drawing.Point(130, 132);
+            this.labelCategoria.Name = "labelCategoria";
+            this.labelCategoria.Size = new System.Drawing.Size(52, 13);
+            this.labelCategoria.TabIndex = 24;
+            this.labelCategoria.Text = "Categoria";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Comédia",
+            "Sci-fi",
+            "Terror",
+            "Romance",
+            "Acção",
+            "Thriller",
+            "Drama",
+            "Mistério",
+            "Crime",
+            "Aventura",
+            "Fantasia",
+            "Animação"});
+            this.comboBox1.Location = new System.Drawing.Point(133, 149);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(174, 21);
+            this.comboBox1.TabIndex = 25;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // FormFilme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.labelCategoria);
+            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.checkBoxAtivo);
             this.Controls.Add(this.btnEliminarFilme);
             this.Controls.Add(this.btnEditarFilme);
@@ -142,10 +190,11 @@ namespace CinemaProjeto.Forms
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtFilme);
             this.Controls.Add(this.lstFilmes);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormFilme";
             this.Text = "FormFilme";
             this.Load += new System.EventHandler(this.FormFilme_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,5 +210,8 @@ namespace CinemaProjeto.Forms
         private System.Windows.Forms.TextBox txtFilme;
         private System.Windows.Forms.ListBox lstFilmes;
         private System.Windows.Forms.CheckBox checkBoxAtivo;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label labelCategoria;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

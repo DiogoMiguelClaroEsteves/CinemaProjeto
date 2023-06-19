@@ -76,3 +76,27 @@ C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaP
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.InitialCreate.resources
 C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.BaseDados.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe.config
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.exe
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\bin\Debug\CinemaProjeto.pdb
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.dll
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.xml
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.AssemblyReference.cache
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Form1.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\Projeto.CriarCinemaUI.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormBilhetes.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormCinema.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormFilme.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormHome.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSala.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.InitialCreate.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.BaseDados.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Properties.Resources.resources
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.GenerateResource.cache
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.csproj.CopyComplete
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.exe
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.pdb
+C:\Users\Gordo oh Night\Documents\GitHub\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.NomeDaMigration.resources

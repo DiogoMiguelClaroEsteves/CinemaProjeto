@@ -10,8 +10,9 @@ namespace CinemaProjeto
     {
         public int ID { get; set; }
         public string Nome { get; set; }
-        public TimeSpan Duracao { get; set; }
+        public string Duracao { get; set; }
         public bool Activo { get; set; }
+        public string Categoria { get; set; }
         public Sessao Sessao { get; set; }
 
         internal List<Filme> Filmes;
@@ -22,7 +23,7 @@ namespace CinemaProjeto
             Filmes = new List<Filme>();
         }
 
-        public void EditarFilme(string novoNome, bool novoAtivo)
+        public void EditarFilme(string novoNome, bool novoAtivo, string novoDuracao, string novoCategoria)
         {
             using (var db = new CinemaContext())
             {
@@ -36,6 +37,9 @@ namespace CinemaProjeto
                     //filmeDoBanco.Duracao = novaDuracao;
                     filmeDoBanco.Activo = novoAtivo;
 
+                    filmeDoBanco.Duracao = novoDuracao;
+
+                    filmeDoBanco.Categoria = novoCategoria;
                     // Salva as alterações no banco de dados
                     db.SaveChanges();
                 }
@@ -43,6 +47,8 @@ namespace CinemaProjeto
 
             // Atualiza os dados da sala localmente
             Nome = novoNome;
+            Duracao = novoDuracao;
+            Categoria = novoCategoria;
         }
 
         public void RemoverFilme(Filme filme)
@@ -65,10 +71,10 @@ namespace CinemaProjeto
             // Remove a sala da lista local
             Filmes.Remove(filme);
         }
-
+        
         public override string ToString()
         {
-            return $"Filme: {Nome}  \t\t\t Duração: {Duracao} \t\t\t Exibição: {Activo}";
+            return $"Filme: {Nome}  \t Duração: {Duracao} \t Exibição: {Activo} \t Categoria: {Categoria}";
         }
     }
 }

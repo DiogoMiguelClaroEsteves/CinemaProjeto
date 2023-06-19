@@ -39,6 +39,8 @@ namespace CinemaProjeto.Forms
             {
                 Nome = txtFilme.Text,
                 Activo = checkBoxAtivo.Checked,
+                Duracao = numericUpDown1.Text,
+                Categoria = comboBox1.Text,
             };
 
             using (var db = new CinemaContext())
@@ -61,7 +63,7 @@ namespace CinemaProjeto.Forms
             }
 
             Filme filme = (Filme)lstFilmes.SelectedItem;
-            filme.EditarFilme(txtFilme.Text, checkBoxAtivo.Checked);
+            filme.EditarFilme(txtFilme.Text, checkBoxAtivo.Checked, numericUpDown1.Text, comboBox1.Text);
 
             lstFilmes.Items[lstFilmes.SelectedIndex] = filme;
 
@@ -102,6 +104,20 @@ namespace CinemaProjeto.Forms
         {
             txtFilme.Text = string.Empty;
             checkBoxAtivo.Checked = false;
+        }
+        
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtFilme_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

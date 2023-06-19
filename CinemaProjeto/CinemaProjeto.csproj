@@ -114,6 +114,10 @@
     <Compile Include="Migrations\202306181539249_BaseDados.designer.cs">
       <DependentUpon>202306181539249_BaseDados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202306191411041_NomeDaMigration.cs" />
+    <Compile Include="Migrations\202306191411041_NomeDaMigration.designer.cs">
+      <DependentUpon>202306191411041_NomeDaMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -150,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202306181539249_BaseDados.resx">
       <DependentUpon>202306181539249_BaseDados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306191411041_NomeDaMigration.resx">
+      <DependentUpon>202306191411041_NomeDaMigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

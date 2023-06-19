@@ -21,5 +21,40 @@ namespace CinemaProjeto.Forms
         {
 
         }
+
+        private void labelMorada_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelEmail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCriar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxMorada_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelNome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

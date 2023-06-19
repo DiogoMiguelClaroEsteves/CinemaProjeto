@@ -29,7 +29,6 @@ namespace Projeto
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelCriar = new System.Windows.Forms.Label();
             this.labelMorada = new System.Windows.Forms.Label();
             this.labelNome = new System.Windows.Forms.Label();
             this.textBoxNome = new System.Windows.Forms.TextBox();
@@ -37,21 +36,13 @@ namespace Projeto
             this.buttonCriar = new System.Windows.Forms.Button();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.labelEmail = new System.Windows.Forms.Label();
+            this.labelCriar = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // labelCriar
-            // 
-            this.labelCriar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelCriar.Location = new System.Drawing.Point(80, 11);
-            this.labelCriar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelCriar.Name = "labelCriar";
-            this.labelCriar.Size = new System.Drawing.Size(324, 63);
-            this.labelCriar.TabIndex = 0;
-            this.labelCriar.Text = "Criar Cinema";
             // 
             // labelMorada
             // 
             this.labelMorada.AutoSize = true;
+            this.labelMorada.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.labelMorada.Location = new System.Drawing.Point(129, 151);
             this.labelMorada.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMorada.Name = "labelMorada";
@@ -62,6 +53,7 @@ namespace Projeto
             // labelNome
             // 
             this.labelNome.AutoSize = true;
+            this.labelNome.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.labelNome.Location = new System.Drawing.Point(129, 85);
             this.labelNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNome.Name = "labelNome";
@@ -107,6 +99,7 @@ namespace Projeto
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
+            this.labelEmail.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.labelEmail.Location = new System.Drawing.Point(130, 208);
             this.labelEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEmail.Name = "labelEmail";
@@ -114,10 +107,21 @@ namespace Projeto
             this.labelEmail.TabIndex = 6;
             this.labelEmail.Text = "Email";
             // 
+            // labelCriar
+            // 
+            this.labelCriar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.labelCriar.Location = new System.Drawing.Point(80, 11);
+            this.labelCriar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelCriar.Name = "labelCriar";
+            this.labelCriar.Size = new System.Drawing.Size(324, 63);
+            this.labelCriar.TabIndex = 0;
+            this.labelCriar.Text = "Criar Cinema";
+            // 
             // CriarCinemaUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
             this.ClientSize = new System.Drawing.Size(660, 383);
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.labelEmail);
@@ -137,8 +141,6 @@ namespace Projeto
         }
 
         #endregion
-
-        private System.Windows.Forms.Label labelCriar;
         private System.Windows.Forms.Label labelMorada;
         private System.Windows.Forms.Label labelNome;
         private System.Windows.Forms.TextBox textBoxNome;
@@ -146,5 +148,6 @@ namespace Projeto
         private System.Windows.Forms.Button buttonCriar;
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.Label labelEmail;
+        private System.Windows.Forms.Label labelCriar;
     }
 }

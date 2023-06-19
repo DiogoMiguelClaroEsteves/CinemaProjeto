@@ -33,13 +33,13 @@
             this.btnbilhetes = new System.Windows.Forms.Button();
             this.btnsalas = new System.Windows.Forms.Button();
             this.btnfilmes = new System.Windows.Forms.Button();
-            this.btncinema = new System.Windows.Forms.Button();
             this.HomeBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.CineGest = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
             this.panelDesktopPane = new System.Windows.Forms.Panel();
+            this.btnsessoes = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -48,11 +48,11 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(35)))), ((int)(((byte)(64)))));
+            this.panelMenu.Controls.Add(this.btnsessoes);
             this.panelMenu.Controls.Add(this.buttonCriarCinema);
             this.panelMenu.Controls.Add(this.btnbilhetes);
             this.panelMenu.Controls.Add(this.btnsalas);
             this.panelMenu.Controls.Add(this.btnfilmes);
-            this.panelMenu.Controls.Add(this.btncinema);
             this.panelMenu.Controls.Add(this.HomeBtn);
             this.panelMenu.Controls.Add(this.panel2);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -64,13 +64,16 @@
             // 
             // buttonCriarCinema
             // 
-            this.buttonCriarCinema.Location = new System.Drawing.Point(0, 335);
+            this.buttonCriarCinema.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(35)))), ((int)(((byte)(64)))));
+            this.buttonCriarCinema.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.buttonCriarCinema.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonCriarCinema.Location = new System.Drawing.Point(0, 150);
             this.buttonCriarCinema.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCriarCinema.Name = "buttonCriarCinema";
-            this.buttonCriarCinema.Size = new System.Drawing.Size(180, 37);
+            this.buttonCriarCinema.Size = new System.Drawing.Size(180, 42);
             this.buttonCriarCinema.TabIndex = 6;
             this.buttonCriarCinema.Text = "Criar Cinema";
-            this.buttonCriarCinema.UseVisualStyleBackColor = true;
+            this.buttonCriarCinema.UseVisualStyleBackColor = false;
             this.buttonCriarCinema.Click += new System.EventHandler(this.buttonCriarCinema_Click);
             // 
             // btnbilhetes
@@ -81,7 +84,7 @@
             this.btnbilhetes.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbilhetes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(241)))), ((int)(((byte)(250)))));
             this.btnbilhetes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnbilhetes.Location = new System.Drawing.Point(0, 288);
+            this.btnbilhetes.Location = new System.Drawing.Point(0, 336);
             this.btnbilhetes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnbilhetes.Name = "btnbilhetes";
             this.btnbilhetes.Size = new System.Drawing.Size(180, 43);
@@ -126,24 +129,6 @@
             this.btnfilmes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnfilmes.UseVisualStyleBackColor = true;
             this.btnfilmes.Click += new System.EventHandler(this.btnfilmes_Click);
-            // 
-            // btncinema
-            // 
-            this.btncinema.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btncinema.AutoSize = true;
-            this.btncinema.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncinema.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncinema.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(241)))), ((int)(((byte)(250)))));
-            this.btncinema.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncinema.Location = new System.Drawing.Point(0, 151);
-            this.btncinema.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btncinema.Name = "btncinema";
-            this.btncinema.Size = new System.Drawing.Size(180, 43);
-            this.btncinema.TabIndex = 2;
-            this.btncinema.Text = "CINEMA";
-            this.btncinema.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btncinema.UseVisualStyleBackColor = true;
-            this.btncinema.Click += new System.EventHandler(this.btncinema_Click);
             // 
             // HomeBtn
             // 
@@ -219,6 +204,24 @@
             this.panelDesktopPane.Size = new System.Drawing.Size(873, 572);
             this.panelDesktopPane.TabIndex = 3;
             // 
+            // btnsessoes
+            // 
+            this.btnsessoes.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnsessoes.AutoSize = true;
+            this.btnsessoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsessoes.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsessoes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(241)))), ((int)(((byte)(250)))));
+            this.btnsessoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnsessoes.Location = new System.Drawing.Point(0, 289);
+            this.btnsessoes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnsessoes.Name = "btnsessoes";
+            this.btnsessoes.Size = new System.Drawing.Size(180, 43);
+            this.btnsessoes.TabIndex = 7;
+            this.btnsessoes.Text = "SESSÕES";
+            this.btnsessoes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnsessoes.UseVisualStyleBackColor = true;
+            this.btnsessoes.Click += new System.EventHandler(this.btnsessoes_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -251,11 +254,11 @@
         private System.Windows.Forms.Button btnbilhetes;
         private System.Windows.Forms.Button btnsalas;
         private System.Windows.Forms.Button btnfilmes;
-        private System.Windows.Forms.Button btncinema;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Panel panelDesktopPane;
         private System.Windows.Forms.Button buttonCriarCinema;
+        private System.Windows.Forms.Button btnsessoes;
     }
 }
 

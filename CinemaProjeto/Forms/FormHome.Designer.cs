@@ -46,7 +46,7 @@ namespace CinemaProjeto.Forms
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(510, 326);
+            this.groupBox2.Size = new System.Drawing.Size(544, 326);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Filmes";
@@ -58,9 +58,9 @@ namespace CinemaProjeto.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxFilmes.FormattingEnabled = true;
             this.listBoxFilmes.ItemHeight = 16;
-            this.listBoxFilmes.Location = new System.Drawing.Point(3, 18);
+            this.listBoxFilmes.Location = new System.Drawing.Point(6, 18);
             this.listBoxFilmes.Name = "listBoxFilmes";
-            this.listBoxFilmes.Size = new System.Drawing.Size(505, 292);
+            this.listBoxFilmes.Size = new System.Drawing.Size(536, 292);
             this.listBoxFilmes.TabIndex = 0;
             this.listBoxFilmes.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
@@ -68,7 +68,7 @@ namespace CinemaProjeto.Forms
             // 
             this.groupBox3.Controls.Add(this.listBoxSalas);
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox3.Location = new System.Drawing.Point(541, 12);
+            this.groupBox3.Location = new System.Drawing.Point(560, 12);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(110, 326);
             this.groupBox3.TabIndex = 1;
@@ -91,7 +91,7 @@ namespace CinemaProjeto.Forms
             // 
             this.groupBox4.Controls.Add(this.listBoxBilhetes);
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox4.Location = new System.Drawing.Point(667, 12);
+            this.groupBox4.Location = new System.Drawing.Point(676, 12);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(171, 326);
             this.groupBox4.TabIndex = 1;

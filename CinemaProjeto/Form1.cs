@@ -120,5 +120,10 @@ namespace CinemaProjeto
         {
 
         }
+
+        private void btnsessoes_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormSessoes(), sender);
+        }
     }
 }

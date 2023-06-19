@@ -17,17 +17,11 @@ namespace CinemaProjeto.Forms
             InitializeComponent();
         }
 
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(textBoxPreco.Text))
             {
-                MessageBox.Show("Nome do Filme Vazio");
+                MessageBox.Show("Tem de preencher o campo do Preço");
 
                 return;
             }
@@ -35,8 +29,7 @@ namespace CinemaProjeto.Forms
             var novaSessao = new CinemaProjeto.Sessao()
             {
                 DataHora = dateTimePicker.Value,
-                preco = textBoxPreco.Text,
-               
+                preco = textBoxPreco.Text,               
             };
 
             using (var db = new CinemaContext())
@@ -47,12 +40,16 @@ namespace CinemaProjeto.Forms
 
             listBoxSessoes.Items.Add(novaSessao);
 
-          
+            LimparCampos();
         }
 
         private void FormSessoes_Load(object sender, EventArgs e)
         {
-
+            using (var db = new CinemaContext())
+            {
+                var sessoes = db.Sessoes.ToList();
+                listBoxSessoes.Items.AddRange(sessoes.ToArray());
+            }
         }
 
         private void listBoxSessoes_SelectedIndexChanged(object sender, EventArgs e)
@@ -80,6 +77,7 @@ namespace CinemaProjeto.Forms
             sessao.RemoverSessao(sessao);
             listBoxSessoes.Items.Remove(sessao);
 
+            LimparCampos();
         }
 
         private void btnEditarSessao_Click(object sender, EventArgs e)
@@ -96,6 +94,13 @@ namespace CinemaProjeto.Forms
             listBoxSessoes.Items[listBoxSessoes.SelectedIndex] = sessao;
 
             MessageBox.Show("Sala editada com sucesso!");
+
+            LimparCampos();
+        }
+
+        private void LimparCampos()
+        {
+            textBoxPreco.Text = string.Empty;
         }
     }
 }

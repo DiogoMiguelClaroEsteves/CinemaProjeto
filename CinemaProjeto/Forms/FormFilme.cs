@@ -28,9 +28,9 @@ namespace CinemaProjeto.Forms
 
         private void btnCriarFilme_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtFilme.Text))
+            if (string.IsNullOrEmpty(txtFilme.Text) || string.IsNullOrEmpty(comboBox1.Text))
             {
-                MessageBox.Show("Nome do Filme Vazio");
+                MessageBox.Show("Tem de preencher os campos todos");
 
                 return;
             }

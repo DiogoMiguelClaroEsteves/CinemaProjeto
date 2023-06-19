@@ -47,19 +47,21 @@ namespace CinemaProjeto.Forms
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(36, 23);
+            this.label1.Location = new System.Drawing.Point(27, 19);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 17);
+            this.label1.Size = new System.Drawing.Size(65, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Data e Hora";
             // 
             // dateTimePicker
             // 
-            this.dateTimePicker.CustomFormat = "dd/MM/yyyy hh:mm ";
+            this.dateTimePicker.CustomFormat = "dd/MM/yyyy HH:mm ";
             this.dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker.Location = new System.Drawing.Point(39, 44);
+            this.dateTimePicker.Location = new System.Drawing.Point(29, 36);
+            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker.Name = "dateTimePicker";
-            this.dateTimePicker.Size = new System.Drawing.Size(211, 22);
+            this.dateTimePicker.Size = new System.Drawing.Size(159, 20);
             this.dateTimePicker.TabIndex = 1;
             this.dateTimePicker.Value = new System.DateTime(2023, 6, 19, 19, 43, 43, 0);
             // 
@@ -67,25 +69,26 @@ namespace CinemaProjeto.Forms
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Snow;
-            this.label2.Location = new System.Drawing.Point(36, 96);
+            this.label2.Location = new System.Drawing.Point(27, 78);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
+            this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Preço";
             // 
             // textBoxPreco
             // 
-            this.textBoxPreco.Location = new System.Drawing.Point(39, 117);
-            this.textBoxPreco.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxPreco.Location = new System.Drawing.Point(29, 95);
             this.textBoxPreco.Name = "textBoxPreco";
-            this.textBoxPreco.Size = new System.Drawing.Size(211, 22);
+            this.textBoxPreco.Size = new System.Drawing.Size(159, 20);
             this.textBoxPreco.TabIndex = 18;
             // 
             // btnCriarSessao
             // 
-            this.btnCriarSessao.Location = new System.Drawing.Point(39, 252);
+            this.btnCriarSessao.Location = new System.Drawing.Point(29, 205);
+            this.btnCriarSessao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCriarSessao.Name = "btnCriarSessao";
-            this.btnCriarSessao.Size = new System.Drawing.Size(105, 25);
+            this.btnCriarSessao.Size = new System.Drawing.Size(79, 20);
             this.btnCriarSessao.TabIndex = 22;
             this.btnCriarSessao.Text = "Criar Sessao";
             this.btnCriarSessao.UseVisualStyleBackColor = true;
@@ -95,9 +98,11 @@ namespace CinemaProjeto.Forms
             // 
             this.groupBox4.Controls.Add(this.listBoxSessoes);
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox4.Location = new System.Drawing.Point(339, 23);
+            this.groupBox4.Location = new System.Drawing.Point(254, 19);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(456, 326);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Size = new System.Drawing.Size(342, 265);
             this.groupBox4.TabIndex = 23;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Sessões";
@@ -108,10 +113,10 @@ namespace CinemaProjeto.Forms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxSessoes.FormattingEnabled = true;
-            this.listBoxSessoes.ItemHeight = 16;
-            this.listBoxSessoes.Location = new System.Drawing.Point(6, 18);
+            this.listBoxSessoes.Location = new System.Drawing.Point(4, 15);
+            this.listBoxSessoes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBoxSessoes.Name = "listBoxSessoes";
-            this.listBoxSessoes.Size = new System.Drawing.Size(443, 292);
+            this.listBoxSessoes.Size = new System.Drawing.Size(333, 238);
             this.listBoxSessoes.TabIndex = 0;
             this.listBoxSessoes.SelectedIndexChanged += new System.EventHandler(this.listBoxSessoes_SelectedIndexChanged);
             // 
@@ -122,10 +127,9 @@ namespace CinemaProjeto.Forms
             // 
             // btnEliminarSessao
             // 
-            this.btnEliminarSessao.Location = new System.Drawing.Point(39, 357);
-            this.btnEliminarSessao.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEliminarSessao.Location = new System.Drawing.Point(29, 290);
             this.btnEliminarSessao.Name = "btnEliminarSessao";
-            this.btnEliminarSessao.Size = new System.Drawing.Size(105, 28);
+            this.btnEliminarSessao.Size = new System.Drawing.Size(79, 23);
             this.btnEliminarSessao.TabIndex = 25;
             this.btnEliminarSessao.Text = "Eliminar Sessao";
             this.btnEliminarSessao.UseVisualStyleBackColor = true;
@@ -133,10 +137,9 @@ namespace CinemaProjeto.Forms
             // 
             // btnEditarSessao
             // 
-            this.btnEditarSessao.Location = new System.Drawing.Point(39, 305);
-            this.btnEditarSessao.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditarSessao.Location = new System.Drawing.Point(29, 248);
             this.btnEditarSessao.Name = "btnEditarSessao";
-            this.btnEditarSessao.Size = new System.Drawing.Size(105, 28);
+            this.btnEditarSessao.Size = new System.Drawing.Size(79, 23);
             this.btnEditarSessao.TabIndex = 24;
             this.btnEditarSessao.Text = "Editar Sessao";
             this.btnEditarSessao.UseVisualStyleBackColor = true;
@@ -144,10 +147,10 @@ namespace CinemaProjeto.Forms
             // 
             // FormSessoes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnEliminarSessao);
             this.Controls.Add(this.btnEditarSessao);
             this.Controls.Add(this.groupBox4);
@@ -156,6 +159,7 @@ namespace CinemaProjeto.Forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormSessoes";
             this.Text = "Sessoes";
             this.Load += new System.EventHandler(this.FormSessoes_Load);

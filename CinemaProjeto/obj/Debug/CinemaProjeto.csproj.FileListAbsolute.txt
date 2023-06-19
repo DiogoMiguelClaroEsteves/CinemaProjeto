@@ -105,3 +105,6 @@ C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Deb
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSala.resources
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSessoes.resources
 C:\Users\sdiog\OneDrive\Ambiente de Trabalho\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.NomeDaMigracao.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Forms.FormSessoes.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.NomeDaMigration.resources
+C:\Users\Esteves\source\repos\Desenvolvimento Aplicações\CinemaProjeto\CinemaProjeto\obj\Debug\CinemaProjeto.Migrations.NomeDaMigracao.resources

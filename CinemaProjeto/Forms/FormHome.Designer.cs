@@ -34,7 +34,7 @@ namespace CinemaProjeto.Forms
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.listBoxSalas = new System.Windows.Forms.ListBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.listBoxBilhetes = new System.Windows.Forms.ListBox();
+            this.listBoxSessoes = new System.Windows.Forms.ListBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -46,7 +46,7 @@ namespace CinemaProjeto.Forms
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(544, 326);
+            this.groupBox2.Size = new System.Drawing.Size(853, 155);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Filmes";
@@ -60,7 +60,7 @@ namespace CinemaProjeto.Forms
             this.listBoxFilmes.ItemHeight = 16;
             this.listBoxFilmes.Location = new System.Drawing.Point(6, 18);
             this.listBoxFilmes.Name = "listBoxFilmes";
-            this.listBoxFilmes.Size = new System.Drawing.Size(536, 292);
+            this.listBoxFilmes.Size = new System.Drawing.Size(845, 132);
             this.listBoxFilmes.TabIndex = 0;
             this.listBoxFilmes.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
@@ -68,9 +68,9 @@ namespace CinemaProjeto.Forms
             // 
             this.groupBox3.Controls.Add(this.listBoxSalas);
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox3.Location = new System.Drawing.Point(560, 12);
+            this.groupBox3.Location = new System.Drawing.Point(12, 173);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(110, 326);
+            this.groupBox3.Size = new System.Drawing.Size(853, 167);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Salas";
@@ -84,38 +84,39 @@ namespace CinemaProjeto.Forms
             this.listBoxSalas.ItemHeight = 16;
             this.listBoxSalas.Location = new System.Drawing.Point(3, 18);
             this.listBoxSalas.Name = "listBoxSalas";
-            this.listBoxSalas.Size = new System.Drawing.Size(102, 292);
+            this.listBoxSalas.Size = new System.Drawing.Size(845, 132);
             this.listBoxSalas.TabIndex = 0;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.listBoxBilhetes);
+            this.groupBox4.Controls.Add(this.listBoxSessoes);
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox4.Location = new System.Drawing.Point(676, 12);
+            this.groupBox4.Location = new System.Drawing.Point(12, 346);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(171, 326);
+            this.groupBox4.Size = new System.Drawing.Size(853, 164);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Bilhetes";
+            this.groupBox4.Text = "Sessões";
             // 
-            // listBoxBilhetes
+            // listBoxSessoes
             // 
-            this.listBoxBilhetes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.listBoxSessoes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxBilhetes.FormattingEnabled = true;
-            this.listBoxBilhetes.ItemHeight = 16;
-            this.listBoxBilhetes.Location = new System.Drawing.Point(6, 18);
-            this.listBoxBilhetes.Name = "listBoxBilhetes";
-            this.listBoxBilhetes.Size = new System.Drawing.Size(158, 292);
-            this.listBoxBilhetes.TabIndex = 0;
+            this.listBoxSessoes.FormattingEnabled = true;
+            this.listBoxSessoes.ItemHeight = 16;
+            this.listBoxSessoes.Location = new System.Drawing.Point(6, 18);
+            this.listBoxSessoes.Name = "listBoxSessoes";
+            this.listBoxSessoes.Size = new System.Drawing.Size(839, 132);
+            this.listBoxSessoes.TabIndex = 0;
+            this.listBoxSessoes.SelectedIndexChanged += new System.EventHandler(this.listBoxBilhetes_SelectedIndexChanged);
             // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(90)))));
-            this.ClientSize = new System.Drawing.Size(850, 467);
+            this.ClientSize = new System.Drawing.Size(877, 512);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -135,6 +136,6 @@ namespace CinemaProjeto.Forms
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.ListBox listBoxSalas;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.ListBox listBoxBilhetes;
+        private System.Windows.Forms.ListBox listBoxSessoes;
     }
 }

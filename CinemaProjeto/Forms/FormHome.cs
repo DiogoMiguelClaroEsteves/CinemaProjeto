@@ -33,6 +33,9 @@ namespace CinemaProjeto.Forms
 
                 var salas = db.Salas.ToList();
                 listBoxSalas.Items.AddRange(salas.ToArray());
+
+                var sessoes = db.Sessoes.ToList();
+                listBoxSessoes.Items.AddRange(sessoes.ToArray());
             }
 
 
@@ -41,6 +44,11 @@ namespace CinemaProjeto.Forms
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void listBoxBilhetes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
